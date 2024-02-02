@@ -2,36 +2,35 @@ body {
   font-family: sans-serif;
 }
 
-.paragraf_style {
+.text {
   font-size: 16px;
   line-height: 26px;
   color: #1F3F68;
 }
 
-.h1_style {
+.top_heading {
   font-size: 64px;
   color: #1F3F68;
 }
 
-.h2_contacts {
+.heading-contacts {
   font-weight: 500;
   font-size: 44px;
   text-align: center;
 }
 
-.h3_style {
+.heading {
   font-size: 36px;
   text-align: center;
 }
 
-.h4_style {
+.heading-mini {
   font-size: 20px;
   line-height: 30px;
   color: #1F3F68;
 }
 
-input,
-textarea {
+.input-text {
   border: 1px solid #356EAD;
   box-sizing: border-box;
   border-radius: 10px;
