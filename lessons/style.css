@@ -1,5 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: sans-serif;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
 }
 
 .text {
@@ -8,9 +18,21 @@ body {
   color: #1F3F68;
 }
 
+.top_text {
+  width: 425px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .top_heading {
   font-size: 64px;
   color: #1F3F68;
+  width: 510px;
+  text-align: center;
 }
 
 .heading-contacts {
@@ -19,9 +41,36 @@ body {
   text-align: center;
 }
 
+.card-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 359px;
+}
+
 .heading {
   font-size: 36px;
   text-align: center;
+}
+
+.heading_footer {
+  width: 340px;
+}
+
+.text_footer {
+  width: 495px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_form {
+  display: flex;
+  /* justify-content: flex-start; */
 }
 
 .heading-mini {
